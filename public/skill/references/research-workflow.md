@@ -14,17 +14,17 @@ Create this table before generating:
 | Proposed feature | Status | Evidence URL or file | What the evidence proves | Allowed in image |
 |---|---|---|---|---|
 | Main public hall | verified | source | confirms location and appearance | labelled cutaway |
-| Upper mechanical level | unknown | none | no public evidence | keep opaque |
+| Upper mechanical level | unknown | none | no public evidence | inferred only if constrained by adjacent verified floors; pale hatch, no factual label |
 | Simplified roof truss | interpretive | source | external roof form only | unlabelled, visually subdued |
 
-Use `verified` only when source evidence supports the precise location and nature of the feature. Use `interpretive` for a conservative graphic simplification whose source supports the general condition but not the exact geometry. Use `unknown` for everything else.
+Use `verified` only when source evidence supports the precise location and nature of the feature. Use `interpretive` for a conservative graphic simplification whose source supports the general condition but not the exact geometry. Use `unknown` for everything else. Unknown areas may still be drawn as a constrained inference when the building's verified geometry, program, circulation, and type make the inference reasonable. Encode this with a distinct pale wash/hatch and never label it as fact.
 
 ## Minimum evidence threshold
 
 - Exterior-only drawing: one authoritative source plus one corroborating photo/source.
 - Cutaway with public rooms: two sources for each named room/circulation route, including one authoritative or primary source.
-- Cutaway showing hidden structure or back-of-house: a plan/section, architect/engineer publication, conservation report, or comparable primary technical source. Otherwise, do not show it.
+- Cutaway showing hidden structure or back-of-house: a plan/section, architect/engineer publication, conservation report, or comparable primary technical source establishes a factual claim. Without it, a restrained, unlabelled inferred reconstruction is allowed only when tied to verified exterior geometry and program.
 
 ## Deliverable record
 
-Deliver the research packet with the image. State the confidence level, list sources, and name every deliberately opaque or unavailable zone. Never convert uncertainty into attractive but factual-looking imagery.
+Deliver the research packet with the image. State the confidence level, list sources, and list every inferred zone with its rationale. Never style an inference so similarly to verified information that viewers mistake it for a documented fact.

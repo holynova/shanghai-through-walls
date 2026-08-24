@@ -12,5 +12,6 @@ Composition: portrait 3:4, complete building fills the page; warm ivory paper ba
 Style/medium: original precise pen-and-ink architectural linework with restrained watercolor wash; educational sectional illustration, not an imitation of any named artist or existing artwork.
 Palette: [exterior materials] with restrained warm ochre cut faces.
 Text: title "[Chinese building name]" and only these verified Chinese labels: "[label 1]", "[label 2]", "[label 3]", "[label 4]", "[label 5]", "[label 6]".
-Constraints: original artwork; labels must be clean, correctly spelled, and evidence-backed; unknown interiors remain opaque or are labelled "公开资料未证实"; no logo, watermark, close-up people, photorealism, invented architectural style, or fabricated rooms/structures.
+Inference rule: For areas not directly documented, create a plausible constrained reconstruction derived from [verified exterior geometry / floor count / documented program / structural type / comparable building type]. Render it in pale wash or fine hatching, clearly different from evidence-backed elements. Do not label it as fact.
+Constraints: original artwork; labels must be clean, correctly spelled, and evidence-backed; unknown interiors are inferred reconstruction rather than opaque voids; no logo, watermark, close-up people, photorealism, invented architectural style, or unsupported factual labels.
 ```

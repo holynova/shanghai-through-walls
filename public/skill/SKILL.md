@@ -29,21 +29,22 @@ Do not proceed to image generation until the ledger is complete. Search in the b
 
 1. Select the cut axis from the verified spatial story, not from symmetry alone.
 2. Include only verified features as labelled callouts. Use exact terms appearing in evidence where possible.
-3. Keep interpretive geometry visually subdued and do not attach factual labels to it. Unknown zones stay opaque or are explicitly marked unavailable, rather than exposed with invented content.
-4. Retain a source list beside the final image or in accompanying metadata, with one reference per material factual claim.
+3. For unknown zones inside an otherwise well-documented building, make a constrained **inferred reconstruction** instead of leaving a blank or opaque mass. Derive it from verified exterior geometry, floor counts, program, public circulation, structural type, and comparable period/building-type conventions. Do not attach factual labels to it.
+4. Render verified and inferred material differently: for example, verified elements in solid ink/wash and inferred elements in pale wash or fine hatching. Provide a legend outside the image that says `实证` and `推断复原`.
+5. Retain a source list beside the final image or in accompanying metadata, with one reference per material factual claim.
 
 ## Image contract
 
 - Preserve a recognizable exterior silhouette, material palette, and immediate city context.
 - Remove one façade or wedge and selectively lift roof pieces. Keep the cut line legible with a restrained warm cut-face color.
-- Reveal only structural system, circulation, principal rooms, and city relationships supported by the packet. A dense building does not require every floor to be illustrated.
+- Reveal verified structural system, circulation, principal rooms, and city relationships. Fill remaining needed space with constrained inferred reconstruction, visibly distinguished from evidence-backed information. A dense building does not require every floor to be illustrated.
 - Use warm ivory paper, precise ink linework, restrained watercolor, portrait 3:4 composition, and original artwork. Do not request an imitation of a living artist or existing drawing.
 - Include the building title plus only as many concise, correctly spelled labels as evidence supports. Ensure every label points to a visible, sourced feature.
 - Add no brand marks, watermark, close-up people, invented historical styles, or photorealistic rendering.
 
 ## Prompt workflow
 
-After completing the research packet, read [the prompt template](references/prompt-template.md), replace every bracketed field from verified evidence, then generate one image. Inspect it against the ledger for: title accuracy, sourced callouts, silhouette recognition, meaningful cut axis, and any invented interior detail. Revise or remove unsupported content before delivery.
+After completing the research packet, read [the prompt template](references/prompt-template.md), replace every bracketed field from verified evidence, then generate one image. Inspect it against the ledger for: title accuracy, sourced callouts, silhouette recognition, meaningful cut axis, and whether each inferred interior feature is a plausible constrained reconstruction rather than a factual claim. Revise or remove unconstrained invention before delivery.
 
 ## Honesty boundary
 
