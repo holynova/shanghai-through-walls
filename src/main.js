@@ -18,7 +18,7 @@ const prompt = `Use case: scientific-educational\nAsset type: evidence-backed ar
 
 document.querySelector('#prompt-text').textContent = prompt;
 const gallery = document.querySelector('#gallery');
-gallery.innerHTML = buildings.map((building, index) => `<article class="building building-${index + 1}"><button data-index="${index}" aria-label="放大查看${building.title}剖透图"><img src="${building.image}" width="1024" height="1536" loading="lazy" alt="${building.title}证据型建筑剖透图" /><span class="number">${building.no}</span></button><div><p>${building.type}</p><h3>${building.title}</h3><p>${building.detail}</p><p class="sources">来源：${building.sources.map(([name, href]) => `<a href="${href}" target="_blank" rel="noreferrer">${name}</a>`).join('、')}</p></div></article>`).join('');
+gallery.innerHTML = buildings.map((building, index) => `<article class="building building-${index + 1}"><button data-index="${index}" aria-label="放大查看${building.title}剖透图"><img src="${building.image}" loading="lazy" alt="${building.title}证据型建筑剖透图" /><span class="number">${building.no}</span></button><div><p>${building.type}</p><h3>${building.title}</h3><p>${building.detail}</p><p class="sources">来源：${building.sources.map(([name, href]) => `<a href="${href}" target="_blank" rel="noreferrer">${name}</a>`).join('、')}</p></div></article>`).join('');
 
 const dialog = document.querySelector('#lightbox');
 const img = document.querySelector('#lightbox-image');
