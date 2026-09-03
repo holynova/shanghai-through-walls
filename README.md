@@ -11,4 +11,8 @@
 
 ![GitHub Pages 二维码](public/github-pages-qr.png)
 
-本地运行：`npm install && npm run dev`
+本地运行：`pnpm install && pnpm run dev`
+
+构建：`pnpm run build`（Cloudflare Workers Static Assets，产出 `dist/`）
+
+GitHub Pages 兼容构建：`pnpm run build:pages`（产出 `dist-pages/`）
