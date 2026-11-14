@@ -33,14 +33,14 @@ An evidence-grounded architectural cutaway atlas documenting famous Shanghai lan
 
 - **Dual-Track Drafting Standard**: Solid lines indicate historically verified structural records; dashed hatching marks literature-backed constrained reconstructions.
 - **Axonometric Cutaway Perspective**: Peels back facades to reveal vertical elevator cores, load-bearing frames, and circulation routes.
-- **Historical Archival Cross-Referencing**: Cites original blueprints, municipal records, and survey maps.
-- **High-Resolution Deep Zoom**: Interactive pan-and-zoom inspection of structural joints, brick masonry, and rooflines.
+- **Historical Archival Cross-Referencing**: Cites official pages, government releases, museum records, and architectural publications.
+- **Lightbox Viewing**: Click any plate to enlarge it and inspect structural joints, brick masonry, and rooflines.
 
 ---
 
 ## Inventory & Scope
 
-Wukang Mansion, Park Hotel, Broadway Mansions, Xujiahui Cathedral, Ohel Moishe Synagogue, Shanghai Symphony Hall, Shanghai Tower.
+Shanghai Tower, Oriental Pearl Tower, China Art Museum, Cathedral of St. Ignatius (Xujiahui Cathedral), Ohel Moishe Synagogue, Shanghai Concert Hall, Shanghai Symphony Hall, Long Museum West Bund, Tank Shanghai — nine buildings in total.
 
 ---
 
@@ -57,7 +57,7 @@ Clone the repository and launch locally:
 ```bash
 git clone https://github.com/holynova/shanghai-through-walls.git
 cd shanghai-through-walls
-npm install && npm run dev
+pnpm install && pnpm run dev
 ```
 
 ---

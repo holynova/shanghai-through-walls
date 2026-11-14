@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "prebuild": "cp research/evidence-ledger.md public/research/evidence-ledger.md && cp skill/SKILL.md public/skill/SKILL.md && cp skill/references/prompt-template.md skill/references/research-workflow.md public/skill/references/",
     "preview": "vite preview"
   },
   "devDependencies": {
