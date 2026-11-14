@@ -1,6 +1,6 @@
 # Evidence ledger, atlas v3
 
-Only the three buildings below pass the project's public-evidence threshold. Dark solid line and wash indicate a source-supported claim. Pale wash and fine hatching indicate a constrained inferred reconstruction: it is derived from verified geometry, levels, program, structural type, or a comparable building type, but is never presented or labelled as a documented fact.
+Only the nine buildings below pass the project's public-evidence threshold. Dark solid line and wash indicate a source-supported claim. Pale wash and fine hatching indicate a constrained inferred reconstruction: it is derived from verified geometry, levels, program, structural type, or a comparable building type, but is never presented or labelled as a documented fact.
 
 ## Shanghai Tower, Shanghai
 
@@ -55,8 +55,8 @@ Only the three buildings below pass the project's public-evidence threshold. Dar
 
 | Feature | Status | Evidence | Allowed rendering |
 |---|---|---|---|
-| 1,200-seat main hall and 400-seat chamber hall | verified | [Ministry of Culture and Tourism](https://www.mct.gov.cn/whzx/qgwhxxlb/sh/201409/t20140909_781644.htm), [Shanghai Construction Group](https://www.scg.com.cn/scg_mtbd/2013-02-24/Detail_199628.htm) | dark-ink hall volumes |
-| Underground structure, concrete piers, isolation bearings and room-in-room shell | verified | [Ministry of Culture and Tourism](https://www.mct.gov.cn/whzx/qgwhxxlb/sh/201409/t20140909_781644.htm), [Shanghai Construction Group](https://www.scg.com.cn/scg_mtbd/2013-02-24/Detail_199628.htm) | dark-ink structural/acoustic diagram |
+| 1,200-seat main hall and 400-seat chamber hall | verified | [Ministry of Culture and Tourism](https://www.mct.gov.cn/whzx/qgwhxxlb/sh/201409/t20140909_781644.htm) | dark-ink hall volumes |
+| Underground structure, concrete piers, isolation bearings and room-in-room shell | verified | [Ministry of Culture and Tourism](https://www.mct.gov.cn/whzx/qgwhxxlb/sh/201409/t20140909_781644.htm), [Nagata Acoustics](https://www.nagata-i.com/wp-content/uploads/2014-11-SSO_news.pdf) | dark-ink structural/acoustic diagram |
 | Exact tunnel alignment, rooms and seating geometry | inferred | constrained by documented underground/isolated building concept | pale hatch only, no labels |
 
 ## Long Museum West Bund, Shanghai
@@ -77,4 +77,4 @@ Only the three buildings below pass the project's public-evidence threshold. Dar
 
 ## Skipped after review
 
-Jing'an Temple, Shanghai Customs House, Peace Hotel North Building, Wukang Building, Shanghai Exhibition Centre, Shanghai Museum, and Jin Mao Tower lack enough directly corroborated public interior/structural evidence for the claims previously drawn. They are not shown in v2.
+Jing'an Temple, Shanghai Customs House, Peace Hotel North Building, Wukang Building, Shanghai Exhibition Centre, Shanghai Museum, and Jin Mao Tower lack enough directly corroborated public interior/structural evidence for the claims previously drawn. They are not shown in v3.
