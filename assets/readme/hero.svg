@@ -1,98 +1,56 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="100%" height="100%">
-  <title>穿墙透壁 · 上海建筑剖透图册 - Shanghai Through Walls · Architectural Cutaway</title>
-  <defs>
-    <linearGradient id="bgGrad_shanghai-through-walls" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#0B1626"/>
-      <stop offset="100%" stop-color="#050B14"/>
-    </linearGradient>
-    <linearGradient id="primaryGrad_shanghai-through-walls" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#00ADB5"/>
-      <stop offset="100%" stop-color="#FFD369"/>
-    </linearGradient>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1200" height="360" viewBox="0 0 1200 360"
+     role="img" aria-labelledby="title desc">
+  <title id="title">穿墙透壁 · 上海建筑剖透图册 — 证据型建筑剖透图</title>
+  <desc id="desc">暖纸底标题：穿墙透壁，副标题把上海一层一层地看清；右侧是一座剖开的高楼，左侧深色墨线是实证结构，右侧浅色排线是推断复原。</desc>
 
-  <!-- Background Canvas -->
-  <rect width="1200" height="420" rx="16" fill="url(#bgGrad_shanghai-through-walls)" stroke="#1B304D" stroke-width="1.5"/>
+  <rect width="1200" height="360" rx="26" fill="#f5efe3"/>
 
-  <!-- Left Content Block -->
-  <g transform="translate(60, 50)">
-    <!-- Category Pill -->
-    <rect x="0" y="0" width="382" height="28" rx="14" fill="#00ADB5" opacity="0.15"/>
-    <text x="14" y="19" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="800" fill="#00ADB5" letter-spacing="1.5">ARCHITECTURAL BLUEPRINT &amp; STRUCTURAL CUTAWAY</text>
-
-    <!-- Main Title (Chinese) -->
-    <text x="0" y="85" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif" font-size="40" font-weight="900" fill="#F1F5F9" letter-spacing="-0.5">
-      穿墙透壁 · 上海建筑剖透图册
-    </text>
-
-    <!-- Subtitle (English & Value Proposition) -->
-    <text x="0" y="125" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="700" fill="#FFD369" letter-spacing="0.5">
-      Shanghai Through Walls · Architectural Cutaway
-    </text>
-
-    <!-- Tagline Description -->
-    <text x="0" y="170" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'PingFang SC', sans-serif" font-size="16" font-weight="500" fill="#7DD3FC">
-      以上海经典地标为对象的严谨剖透图册，区分实证结构与受约束推断
-    </text>
-
-    <!-- Key Spec Badge Array -->
-    <g transform="translate(0, 225)">
-      <!-- Badge 1 -->
-      <rect x="0" y="0" width="599" height="38" rx="8" fill="#1E2430" stroke="#1B304D" stroke-width="1"/>
-      <circle cx="18" cy="19" r="4" fill="#00ADB5"/>
-      <text x="32" y="24" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#F1F5F9">EVIDENCE-BASED · AXONOMETRIC CUTAWAY · HISTORICAL RESTORATION</text>
-    </g>
-
-    <!-- Navigation / Quick action badges -->
-    <g transform="translate(0, 285)">
-      <rect x="0" y="0" width="135" height="34" rx="17" fill="#00ADB5"/>
-      <text x="67" y="22" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" font-weight="800" fill="#FFFFFF" letter-spacing="0.5">TRY LIVE DEMO</text>
-
-      <rect x="145" y="0" width="125" height="34" rx="17" fill="#1E293B" stroke="#1B304D" stroke-width="1"/>
-      <text x="207" y="22" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#7DD3FC">GITHUB REPO</text>
+  <g id="title-block" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif">
+    <text x="56" y="62" font-size="19" letter-spacing="3" fill="#6e6248">证据型建筑剖透图册 · EVIDENCE-BACKED ATLAS</text>
+    <text x="56" y="128" font-size="62" font-weight="700" fill="#2b2620">穿墙透壁</text>
+    <text x="56" y="168" font-size="23" fill="#8f3a26">把上海，一层一层地看清</text>
+    <text x="56" y="204" font-size="19" fill="#6b6049">9 幅上海地标剖透图，实色是实证，浅色排线是推断。</text>
+    <g id="chips" font-size="18" fill="#3a3226" text-anchor="middle">
+      <g><rect x="56" y="238" width="138" height="36" rx="18" fill="#efe7d3" stroke="#d8cbae" stroke-width="1.5"/><text x="125" y="262">9 幅剖透图</text></g>
+      <g><rect x="206" y="238" width="168" height="36" rx="18" fill="#efe7d3" stroke="#d8cbae" stroke-width="1.5"/><text x="290" y="262">实证 / 推断双轨</text></g>
+      <g><rect x="386" y="238" width="126" height="36" rx="18" fill="#efe7d3" stroke="#d8cbae" stroke-width="1.5"/><text x="449" y="262">证据台账</text></g>
+      <g><rect x="524" y="238" width="138" height="36" rx="18" fill="#efe7d3" stroke="#d8cbae" stroke-width="1.5"/><text x="593" y="262">可复用 Skill</text></g>
     </g>
   </g>
 
-  <!-- Right Visual Specimen Motif -->
-  
-        <!-- Shanghai Through Walls Blueprint Visual -->
-        <g transform="translate(740, 45)">
-          <rect x="0" y="0" width="380" height="310" rx="14" fill="#081320" stroke="#00ADB5" stroke-width="2"/>
-          
-          <!-- Blueprint Grid -->
-          <g opacity="0.25">
-            <line x1="20" y1="60" x2="360" y2="60" stroke="#00ADB5" stroke-width="0.75"/>
-            <line x1="20" y1="120" x2="360" y2="120" stroke="#00ADB5" stroke-width="0.75"/>
-            <line x1="20" y1="180" x2="360" y2="180" stroke="#00ADB5" stroke-width="0.75"/>
-            <line x1="20" y1="240" x2="360" y2="240" stroke="#00ADB5" stroke-width="0.75"/>
-            <line x1="90" y1="20" x2="90" y2="290" stroke="#00ADB5" stroke-width="0.75"/>
-            <line x1="190" y1="20" x2="190" y2="290" stroke="#00ADB5" stroke-width="0.75"/>
-            <line x1="290" y1="20" x2="290" y2="290" stroke="#00ADB5" stroke-width="0.75"/>
-          </g>
-
-          <!-- Axonometric Building Cutaway Wireframe -->
-          <g transform="translate(110, 40)">
-            <!-- Solid Lines (Verified Structure) -->
-            <polygon points="80,10 150,50 150,180 80,140" fill="#0E243D" stroke="#00ADB5" stroke-width="2.5"/>
-            <polygon points="10,50 80,10 80,140 10,180" fill="#0A1C30" stroke="#00ADB5" stroke-width="2.5"/>
-            <!-- Cutaway Internal Floors -->
-            <line x1="80" y1="60" x2="150" y2="100" stroke="#00ADB5" stroke-width="2"/>
-            <line x1="80" y1="100" x2="150" y2="140" stroke="#00ADB5" stroke-width="2"/>
-            <!-- Dashed Lines (Constrained Inference) -->
-            <line x1="10" y1="50" x2="80" y2="90" stroke="#FFD369" stroke-width="1.5" stroke-dasharray="4 3"/>
-            <line x1="10" y1="90" x2="80" y2="130" stroke="#FFD369" stroke-width="1.5" stroke-dasharray="4 3"/>
-            <!-- Vertical Core -->
-            <line x1="80" y1="10" x2="80" y2="140" stroke="#38BDF8" stroke-width="2"/>
-          </g>
-
-          <!-- Legend / Evidence Standards Badge -->
-          <rect x="25" y="245" width="330" height="42" rx="8" fill="#0C1B2E" stroke="#00ADB5" stroke-width="1"/>
-          <!-- Verified Legend -->
-          <line x1="45" y1="266" x2="75" y2="266" stroke="#00ADB5" stroke-width="3"/>
-          <text x="85" y="270" font-family="system-ui, sans-serif" font-size="10" font-weight="800" fill="#F1F5F9">实证结构 (Verified)</text>
-          <!-- Inference Legend -->
-          <line x1="205" y1="266" x2="235" y2="266" stroke="#FFD369" stroke-width="2" stroke-dasharray="4 2"/>
-          <text x="245" y="270" font-family="system-ui, sans-serif" font-size="10" font-weight="800" fill="#FFD369">受约束推断 (Inferred)</text>
-        </g>
-        
+  <g id="tower-cutaway">
+    <g id="tower-outline" fill="none" stroke="#2b2620" stroke-width="2.5">
+      <path d="M 830 312 L 856 56 L 884 40 L 912 56 L 938 312 Z"/>
+    </g>
+    <g id="floor-lines" stroke="#2b2620" stroke-width="1.5">
+      <line x1="834" y1="280" x2="934" y2="280"/>
+      <line x1="838" y1="248" x2="930" y2="248"/>
+      <line x1="842" y1="216" x2="926" y2="216"/>
+      <line x1="846" y1="184" x2="922" y2="184"/>
+      <line x1="850" y1="152" x2="918" y2="152"/>
+      <line x1="854" y1="120" x2="914" y2="120"/>
+      <line x1="857" y1="88" x2="911" y2="88"/>
+    </g>
+    <g id="inferred-hatch" stroke="#b8a888" stroke-width="1.5">
+      <line x1="884" y1="280" x2="900" y2="248"/>
+      <line x1="884" y1="248" x2="900" y2="216"/>
+      <line x1="884" y1="216" x2="900" y2="184"/>
+      <line x1="884" y1="184" x2="900" y2="152"/>
+      <line x1="884" y1="152" x2="900" y2="120"/>
+      <line x1="884" y1="120" x2="900" y2="88"/>
+      <line x1="900" y1="280" x2="916" y2="248"/>
+      <line x1="900" y1="248" x2="916" y2="216"/>
+      <line x1="900" y1="216" x2="916" y2="184"/>
+      <line x1="900" y1="184" x2="916" y2="152"/>
+      <line x1="900" y1="152" x2="916" y2="120"/>
+      <line x1="900" y1="120" x2="916" y2="88"/>
+    </g>
+    <g id="legend" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" fill="#4a4234">
+      <g><circle cx="982" cy="106" r="10" fill="#2b2620"/><text x="1000" y="112">实色 = 实证</text></g>
+      <g><circle cx="982" cy="142" r="10" fill="#f5efe3" stroke="#b8a888" stroke-width="1.5"/><line x1="975" y1="149" x2="989" y2="135" stroke="#b8a888" stroke-width="1.5"/><text x="1000" y="148">排线 = 推断</text></g>
+    </g>
+    <text x="972" y="280" font-size="18" fill="#6b6049" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif">01 上海中心大厦</text>
+    <text x="972" y="306" font-size="18" fill="#6b6049" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif">九个垂直社区</text>
+  </g>
 </svg>
